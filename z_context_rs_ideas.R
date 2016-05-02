@@ -157,8 +157,8 @@ print ('all done!')
 
 # assemble rgbs
 mean_rgb <- brick (c(mean_r, mean_g, mean_b))
-top_rgb <- brick (c(top_r, top_g, top_g))
-bot_rgb <- brick (c(bot_r, bot_g, bot_g))
+top_rgb <- brick (c(top_r, top_g, top_b))
+bot_rgb <- brick (c(bot_r, bot_g, bot_b))
 mean_rgb_upper <- brick (c(mean_r_upper, mean_g_upper, mean_b_upper))
 mean_rgb_lower <- brick (c(mean_r_lower, mean_g_lower, mean_b_lower))
 
